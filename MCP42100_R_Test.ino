@@ -24,7 +24,7 @@
 const byte csPin           = 2;       // MCP42100 chip select pin
 const int  maxPositions    = 256;     // wiper can move from 0 to 255 = 256 positions
 const long rAB             = 100000;  // 100k pot resistance between terminals A and B
-const byte rWiper          = 52;      // 52 ohms pot wiper resistance
+const byte rWiper          = 125;     // 125 ohms pot wiper resistance
 const byte pot0            = 0x11;    // pot0 addr
 const byte pot1            = 0x12;    // pot1 addr
 const byte potBoth         = 0x13;    // pot0 and pot1 simultaneous addr
